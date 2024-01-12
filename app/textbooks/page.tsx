@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import PageTitle from "./../components/PageTitle";
 
 const TextbookPage = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <PageTitle />
+  );
+};
 
-export default TextbookPage
+export default TextbookPage;

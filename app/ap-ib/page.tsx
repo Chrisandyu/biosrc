@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ApPage = () => {
+const ApIbPage = () => {
   return (
     <div>
-      
+      Ok
     </div>
   )
 }
 
-export default ApPage
+export default ApIbPage

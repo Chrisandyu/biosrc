@@ -7,7 +7,7 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
 
   daisyui: {
     themes: ["night"], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]

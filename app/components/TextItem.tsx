@@ -1,11 +1,11 @@
 import React from 'react'
 
-const UsaboPage = () => {
+const TextItem = () => {
   return (
     <div>
-      
+      <></>
     </div>
   )
 }
 
-export default UsaboPage
+export default TextItem
