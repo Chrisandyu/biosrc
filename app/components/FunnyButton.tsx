@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 
-const FunnyButton: React.FC = () => {
+const FunnyButton = () => {
   const [buttonText, setButtonText] = useState('Unsubscribe');
 
   const distanceBetween = (p1x: number, p1y: number, p2x: number, p2y: number): number => {

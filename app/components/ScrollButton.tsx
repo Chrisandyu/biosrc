@@ -1,4 +1,5 @@
 'use client';
+import Router from "next/router";
 
 import React from "react";
 
@@ -6,6 +7,7 @@ const ScrollButton = () => {
   function scrollToBottom() {
     const scrollTo = document.documentElement.scrollHeight - window.innerHeight;
     window.scroll({ top: scrollTo, behavior: "smooth" });
+    
   }
   return (
     <div>

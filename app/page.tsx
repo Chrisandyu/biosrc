@@ -1,6 +1,5 @@
 import ScrollButton from "./components/ScrollButton";
 import DescCard from "./components/DescCard";
-
 export default function Home() {
   return (
     <div>
