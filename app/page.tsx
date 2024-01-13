@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full bg-gradient-to-b from-transparent to-secondary">
+      <div className="w-full bg-gradient-to-b from-transparent to-secondary" id="you">
         <div className="grid grid-cols-1 min-h-screen md:grid-cols-2 lg:grid-cols-4 gap-10 items-center mx-10">
           <DescCard
             title="Textbooks"

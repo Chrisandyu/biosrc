@@ -1,13 +1,17 @@
 import React from "react";
 
-const PageTitle = () => {
+interface Props {
+    title:string;
+}
+
+const PageTitle: React.FC<Props> = ({title}) => {
   return (
     <div>
       <div>
-        <div className="hero mt-20 bg-base-200">
+        <div className="hero mt-20">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-4xl font-bold">Textbooks</h1>
+              <h1 className="text-4xl font-bold">{title}</h1>
             </div>
           </div>
         </div>

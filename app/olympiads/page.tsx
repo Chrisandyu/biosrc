@@ -1,9 +1,10 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 const OlympiadsPage = () => {
   return (
     <div>
-      olympiads are here
+      <PageTitle title="Olympiads"/>
     </div>
   )
 }
