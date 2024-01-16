@@ -1,7 +1,6 @@
 import React from "react";
 import { promises as fs } from "fs";
 import PageTitle from "@/app/components/PageTitle"
-import {useRouter} from "next/router"
 
 interface Textbook {
     id: string;
@@ -11,7 +10,6 @@ interface Textbook {
 }
 
 const Textbook = () => {
-    const router = useRouter();
     return (
       <div>
         <h1></h1>
