@@ -1,0 +1,29 @@
+[
+  {
+    "id": "campbell",
+    "title": "Campbell Biology",
+    "author": "Jane B. Reece",
+    "desc": "A comprehensive introduction to biology"
+  },
+
+  {
+    "id": "mbc",
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts",
+    "desc": "A comprehensive introduction to biology"
+  },
+
+  {
+    "id": "brookers",
+    "title": "Genetics: Analysis and Principles",
+    "author": "Robert J. Brooker",
+    "desc": "A comprehensive introduction to biology"
+  },
+
+  {
+    "id": "vanders",
+    "title": "Human Physiology: Body Function",
+    "author": "Eric Widmaier",
+    "desc": "A comprehensive introduction to biology"
+  }
+]

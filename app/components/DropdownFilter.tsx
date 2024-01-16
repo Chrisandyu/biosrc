@@ -5,7 +5,8 @@ const DropdownFilter = () => {
     <div>
       <details className="dropdown">
         <summary className="mx-5 btn btn-secondary">
-          Sort by<img src="/dropdown.svg" className="h-3" />{" "}
+          Sort by
+          <img src="/dropdown.svg" className="h-3" />
         </summary>
         <ul className="p-2 menu dropdown-content z-[1] bg-base-300 rounded-box w-52">
           <li>

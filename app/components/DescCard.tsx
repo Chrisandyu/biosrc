@@ -1,5 +1,7 @@
-import Link from "next/link";
+//import { useRouter } from "next/navigation";
 import React from "react";
+import { redirect } from "next/navigation";
+import Link from "next/link";
 
 interface CardProps {
   title: string;
@@ -18,9 +20,8 @@ const DescCard: React.FC<CardProps> = ({
   buttonColor,
   path,
 }) => {
-  function redirect() {
-    console.log("hi");
-  }
+  //const router = useRouter();
+
   return (
     <div
       className="card card-compact h-[80%] bg-base-100 shadow-xl mt-12 hover:shadow-2xl transform 
@@ -33,12 +34,7 @@ const DescCard: React.FC<CardProps> = ({
         <h2 className="card-title">{title}</h2>
         <p className="leading-relaxed">{description}</p>
         <div className="card-actions justify-end">
-          <button
-            className={`btn btn-${buttonColor} btn-outline`}
-            onClick={redirect()}
-          >
-            {buttonText}
-          </button>
+          <Link className={`btn btn-${buttonColor} btn-outline`} href={path}>{title}</Link>
         </div>
       </div>
     </div>
