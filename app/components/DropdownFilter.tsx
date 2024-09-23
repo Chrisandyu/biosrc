@@ -10,10 +10,10 @@ const DropdownFilter = () => {
         </summary>
         <ul className="p-2 menu dropdown-content z-[1] bg-base-300 rounded-box w-52">
           <li>
-            <a>Item 1</a>
+            <a>Item2</a>
           </li>
           <li>
-            <a>Item 2</a>
+            <a>Item1</a>
           </li>
         </ul>
       </details>

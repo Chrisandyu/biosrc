@@ -9,4 +9,5 @@ const OlympiadsPage = () => {
   )
 }
 
+
 export default OlympiadsPage

@@ -3,7 +3,7 @@ import React from 'react'
 const ApIbPage = () => {
   return (
     <div>
-      Ok
+      Info on ap ib
     </div>
   )
 }

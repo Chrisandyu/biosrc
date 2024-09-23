@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href="/" className="btn btn-ghost text-xl ml-4">
             <img src="/logo.png" className="h-7 mb-1" />
           {" "}
-          biosrc{" "}
+          biosrc {" "}
         </Link>
       </div>
       <div className="flex-none">

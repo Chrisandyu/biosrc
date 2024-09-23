@@ -34,7 +34,7 @@ const DescCard: React.FC<CardProps> = ({
         <h2 className="card-title">{title}</h2>
         <p className="leading-relaxed">{description}</p>
         <div className="card-actions justify-end">
-          <Link className={`btn btn-${buttonColor} btn-outline`} href={path}>{title}</Link>
+          <Link className={`btn btn-${buttonColor}`} href={path}>{title}</Link>
         </div>
       </div>
     </div>
