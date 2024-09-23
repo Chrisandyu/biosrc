@@ -1,6 +1,7 @@
 import React from "react";
 import { promises as fs } from "fs";
 import PageTitle from "@/app/components/PageTitle"
+import TextViewer from "@/app/components/TextViewer"
 
 interface Textbook {
     id: string;
@@ -9,12 +10,14 @@ interface Textbook {
     desc: string;
 }
 
-const Textbook = () => {
+const Textbook = async({ params }: { params: { id: string } }) => {
+    const file = await fs.readFile(process.cwd() + '/app/textbooks/textbooks.json', 'utf8');
+    const textbooks = JSON.parse(file);
+    const textbook = textbooks.find((textbook:Textbook) => textbook.id === params.id);
     return (
       <div>
-        <h1></h1>
-        <p>Author: </p>
-        <p>Description:</p>
+        <PageTitle title={textbook.title}></PageTitle>
+        <TextViewer id={textbook.id}/>
       </div>
     );
   };

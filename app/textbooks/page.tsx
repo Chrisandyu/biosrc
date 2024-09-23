@@ -13,7 +13,7 @@ const TextbookPage = async() => {
   const textbooks = JSON.parse(file);
   return (
     <div>
-      <PageTitle title="Textbooks" />
+      <PageTitle title="Textbooks" size={4}/>
       <div className="container mx-auto mt-3 mb-8 flex justify-end">
         <TextSearch />
         <DropdownFilter />
